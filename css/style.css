@@ -10,7 +10,6 @@
 .container {
     background: url(../images/fundo.png);
     background-size: cover;
-
 }
 
 header {
@@ -23,19 +22,20 @@ header {
     display: flex;
     justify-content: space-between;
     width: 1100px;
-    height: 400px;
-    margin: auto;
+    height: 490px;
+    margin: 0 auto;
 }
 
 .esquerda {
-    width: 445px;
+    flex: 1;
 }
 
 .esquerda .titulo h1 {
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: normal;
     padding-top: 50px;
+    width: 450px;
 }
 
 .esquerda .subtitulo {
@@ -43,35 +43,36 @@ header {
     font-size: 15px;
     margin: 20px 0;
     width: 350px;
+    line-height: 20px;
 }
 
 .esquerda input {
     background-color: #1d2437;
     color: white;
     width: 300px;
-    padding: 7px;
+    padding: 9px;
     border: 1px solid rgba(255, 255, 255, 0.404);
 }
 
 .esquerda button {
     background-color: #0071B7;
     color: white;
-    padding: 7px;
+    padding: 9px;
     border: 1px solid rgba(255, 255, 255, 0.404);
     cursor: pointer;
 }
 
 .esquerda .programas img {
     width: 40px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-right: 10px;
 }
 
 .direita {
-    width: 450px;
+    flex: 1;
     background: url(../images/hero.png);
-    background-size: cover;  
-    background-position: 100%;
+    background-size: 95%;  
+    background-position: cover;
     background-repeat: no-repeat;
 }
 
