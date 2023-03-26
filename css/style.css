@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: url(../images/fundo.png);
+    background-size: cover;
+
+}
+
+header {
+    width: 950px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.divisoes {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    height: 400px;
+    margin: auto;
+}
+
+.esquerda {
+    width: 445px;
+}
+
+.esquerda .titulo h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: normal;
+    padding-top: 50px;
+}
+
+.esquerda .subtitulo {
+    color: rgba(255, 255, 255, 0.404);
+    font-size: 15px;
+    margin: 20px 0;
+    width: 350px;
+}
+
+.esquerda input {
+    background-color: #1d2437;
+    color: white;
+    width: 300px;
+    padding: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+}
+
+.esquerda button {
+    background-color: #0071B7;
+    color: white;
+    padding: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    cursor: pointer;
+}
+
+.esquerda .programas img {
+    width: 40px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.direita {
+    width: 450px;
+    background: url(../images/hero.png);
+    background-size: cover;  
+    background-position: 100%;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.infos div {
+    margin-left: 15px;
+}
+
+.infos div p {
+    color: #a8aeb1;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.infos div.circle {
+    display: flex;
+    background-color: #a8aeb1;
+    width: 6px;
+    height: 6px;
+    border-radius: 50% 50%;
+    align-items: center;
+}
+
+
+
+
