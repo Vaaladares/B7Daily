@@ -46,20 +46,24 @@ header {
     line-height: 20px;
 }
 
-.esquerda input {
+.esquerda .primeiro-email input {
     background-color: #1d2437;
     color: white;
     width: 300px;
     padding: 9px;
-    border: 1px solid rgba(255, 255, 255, 0.404);
+    border: 1px solid rgba(255, 255, 255, 0.212);
 }
 
-.esquerda button {
+.esquerda .primeiro-email button {
     background-color: #0071B7;
     color: white;
     padding: 9px;
-    border: 1px solid rgba(255, 255, 255, 0.404);
+    border: 1px solid rgba(255, 255, 255, 0.212);
     cursor: pointer;
+}
+
+.esquerda .primeiro-email button:hover {
+    background-color: #024b79;
 }
 
 .esquerda .programas img {
@@ -90,8 +94,8 @@ header {
 
 .infos div p {
     color: #a8aeb1;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 21px;
+    font-weight: 500;
 }
 
 .infos div.circle {
@@ -105,8 +109,8 @@ header {
 
 .container-duvidas {
     width: 1000px;
-    margin: 0 auto;
-    padding: 70px;
+    margin-left: 230px;
+    padding-top: 70px;
 } 
 
 .duvidas {
@@ -126,13 +130,89 @@ header {
 }
 
 .texto-duvidas {
-    margin-left: 40px;
+    margin-left: 70px;
     margin-top: -23px;
 }
 
-.texto-duvidas p {
-    padding: 20px 0px 50px 0px;
+.texto-duvidas h2 {
+    font-size: 32px;
+    font-weight: normal;
 }
+
+.texto-duvidas p {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0px 50px 0px;
+    width: 550px;
+}
+
+.containe-email-rodape {
+    display: flex;
+    background-color: #1d2437;
+    justify-content: center;
+}
+
+.ultimo-email {
+    display: flex;  
+    padding: 80px 0px 80px 0px;
+    gap: 130px;  
+    align-items: center;
+}
+
+.texto-email-rodape h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.texto-email-rodape p {
+    width: 250px;
+    color: rgba(255, 255, 255, 0.404);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+ .form-rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 350px;
+}
+
+.form-rodape input {
+    padding: 10px;
+    background-color: #1d2437;
+    color: white;
+    border: 1px solid rgba(168, 174, 177, 0.219);
+}
+
+.form-rodape button {
+    padding: 10px;
+    background-color: #0071B7;
+    color: white;
+    border: 1px solid rgba(168, 174, 177, 0.212);
+    cursor: pointer;
+}
+
+.form-rodape button:hover {
+    background-color: #024b79;
+}
+
+footer {
+    background-color: #1d2437;
+    border-top: 2px solid rgba(168, 174, 177, 0.219);
+}
+
+footer img {
+    padding: 30px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
 
 
 
