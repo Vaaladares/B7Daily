@@ -26,6 +26,8 @@ header {
     margin: 0 auto;
 }
 
+/**** CONFIGURAÇÃO LADO ESQUERDO ****/
+
 .esquerda {
     flex: 1;
 }
@@ -72,6 +74,9 @@ header {
     padding-right: 10px;
 }
 
+/**** CONFIGURAÇÃO LADO DIREITO ****/
+
+
 .direita {
     flex: 1;
     background: url(../images/hero.png);
@@ -79,6 +84,9 @@ header {
     background-position: cover;
     background-repeat: no-repeat;
 }
+
+/**** CONFIGURAÇÃO DAS INFORMAÇÕES ****/
+
 
 .infos {
     display: flex;
@@ -106,6 +114,10 @@ header {
     border-radius: 50% 50%;
     align-items: center;
 }
+
+
+/**** CONFIGURAÇÃO DAS DUVIDAS ****/
+
 
 .container-duvidas {
     width: 1000px;
@@ -145,6 +157,10 @@ header {
     width: 550px;
 }
 
+
+/**** CONFIGURAÇÃO DO FUMULARIO DO RODAPE ****/
+
+
 .containe-email-rodape {
     display: flex;
     background-color: #1d2437;
@@ -171,7 +187,7 @@ header {
     margin-top: 10px;
 }
 
- .form-rodape {
+.form-rodape {
     display: flex;
     flex-direction: column;
     gap: 7px;
@@ -196,6 +212,10 @@ header {
 .form-rodape button:hover {
     background-color: #024b79;
 }
+
+
+/**** CONFIGURAÇÃO DO RODAPÉ ****/
+
 
 footer {
     background-color: #1d2437;
